@@ -1,4 +1,4 @@
-// 0-classroom.js
+// 1-make_classrooms.js
 
 import ClassRoom from "./0-classroom.js";
 

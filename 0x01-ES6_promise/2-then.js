@@ -1,9 +1,11 @@
+// 2-then.js
+
 /**
  * Handles the response from the API.
  * @param {Promise} promise - Promise to handle.
  * @returns {Promise} Promise with handled response.
  */
-function handleResponseFromAPI(promise) {
+export default function handleResponseFromAPI(promise) {
   return promise
     .then((responseData) => {
       return { status: 200, body: 'success' };
